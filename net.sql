@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `login`, `pass`, `email`, `salt`, `status`, `age`, `sex`, `avatar`) VALUES
-(1, 'p4rk23', 'e10adc3949ba59abbe56e057f20f883e', 'baks92@list.ru', '', 0, 0, '', ''),
+(1, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'admin@example.ru', '', 0, 0, '', ''),
 (2, 'test', '827ccb0eea8a706c4c34a16891f84e7b', 'test@mail.ru', '', 0, 0, '', ''),
 (3, 'lol', '8f036369a5cd26454949e594fb9e0a2d', 'lol@mail.ru', '', 0, 0, '', '');
 
