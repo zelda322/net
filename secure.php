@@ -15,6 +15,7 @@ class Security{
 			$res=	intval($value);
 			return $res;
 			header('Location:index.php');
+			exit;
 		}
 		else{
 			die();
